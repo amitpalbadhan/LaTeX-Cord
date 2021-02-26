@@ -1,2 +1,2 @@
 # LaTeX-Cord
-Quickly send compiled LaTeX in the current channel.
+Powercord plugin to quickly send compiled LaTeX in the current channel.
