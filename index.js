@@ -5,7 +5,7 @@ module.exports = class LaTeXcord extends Plugin {
     const domain = "http://chart.apis.google.com/chart?cht=tx&chl=";
     powercord.api.commands.registerCommand({
       command: 'latex',
-      description: 'Quickly compiled LaTeX in current channel.',
+      description: 'Quickly send LaTeX equations in current channel.',
       usage: '..',
       executor: (args) => ({
         send: true,
