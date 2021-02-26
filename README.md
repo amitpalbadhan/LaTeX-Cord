@@ -1,2 +1,2 @@
 # LaTeX-Cord
-LaTeX-Cord for Powercord
+Quickly send compiled LaTeX in the current channel.
