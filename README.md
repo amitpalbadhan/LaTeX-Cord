@@ -1,2 +1,2 @@
 # LaTeX-Cord
-Powercord plugin to quickly send compiled LaTeX in the current channel.
+Powercord plugin to send LaTeX equations in the current channel.
