@@ -9,7 +9,7 @@ module.exports = class LaTeXcord extends Plugin {
       usage: '..',
       executor: (args) => ({
         send: true,
-        result: domain + encodeURIComponent(args.join(''))
+        result: domain + encodeURIComponent(args.join(' '))
       })
     });
   }
