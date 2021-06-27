@@ -2,7 +2,7 @@ const { Plugin } = require('powercord/entities');
 
 module.exports = class LaTeXcord extends Plugin {
   startPlugin () {
-    const domain = "http://chart.apis.google.com/chart?cht=tx&chl=";
+    const domain = "http://chart.apis.google.com/chart?cht=tx&chco=ffffff&chf=bg,s,36393f&chl=";
     powercord.api.commands.registerCommand({
       command: 'latex',
       description: 'Quickly send LaTeX equations in current channel.',
